@@ -14,7 +14,7 @@ class LogoutPresenter implements Presenter
 
     public function renderDefaultView()
     {
-        return $this->view->index();
+        return $this->view->index("");
     }
     public function handleLogout()
     {

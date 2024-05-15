@@ -13,6 +13,6 @@ class HomePresenter implements Presenter
 
     public function renderDefaultView()
     {
-        return $this->view->index();
+        return $this->view->index("");
     }
 }
